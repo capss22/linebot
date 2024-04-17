@@ -9,7 +9,7 @@ import sqlite3
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('rj36X0BhpcCyZ/CJBlvtCqzAaDDGAasMu/k1H4D0sukMZktsVYgr381SKvGwveKHQUOYQTqPaCUda/LVcJvFEsQKmbnR0jsGVYR3hpXIjH5S/SIdwkqAplSBrpxuUd2YLaK+7c3wBcakzmUPL52/mgdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('sEwyL3ZyMvMrWQW22vG0C9hY0g55821tn/+qc4mVkYFyLyHK/4XP9xkJDMYOM3kVQUOYQTqPaCUda/LVcJvFEsQKmbnR0jsGVYR3hpXIjH63wbQXj+HkYvsFp4097IjmMbjSrAtD46b9R/qM+IPV+AdB04t89/1O/w1cDnyilFU=')
 handler = WebhookHandler('0d5f8507006b191424bb7fd959f45c19')
 
 # SQLite 數據庫文件路徑
